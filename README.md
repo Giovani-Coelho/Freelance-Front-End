@@ -2,6 +2,6 @@
 
 🌴 Feito em: HTML & CSS 🌴
 
-👉 site hospedado na https://www.hostinger.com.br/
+👉 hospegem : https://www.hostinger.com.br/
 
 ➡️ link do projeto:https://www.matheuscoelho.com/ ⬅️
