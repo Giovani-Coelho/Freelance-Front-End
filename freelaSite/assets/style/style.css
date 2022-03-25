@@ -1,0 +1,482 @@
+/*====  RESET ============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*===  BASE ============================ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #4361ee;
+    font-family: "Poppins";
+}
+
+h1 {
+    font: 700 1.875rem "Poppins", sans-serif;
+}
+/*====  LAYOUT ============================ */
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    color: #FFFFFF;
+}
+
+.title h1 {
+    margin-bottom: 1rem;
+}
+
+.span-yellow {
+    color: #ffb703;
+}
+
+/* botao ------------- */
+
+.botao-green a {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #70e000;
+    display: inline-block;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.botao-green a:hover {
+    background-color: #53a104;
+    transition: 0.3s;
+}
+
+.img {
+    width: 90%;
+    height: 20rem;
+    background-image: url(/assets/image/matheusApontando.png);
+    background-position: bottom;
+    background-size: cover;
+    margin: auto;
+}
+
+.img .botao-green {
+    position: relative;
+    top: -5rem;
+}
+
+.image {
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+.imagem {
+    width: 100%;
+    height: 20rem;
+    background-image: url(/assets/image/matheusDedo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.first-content {
+    position: relative;
+    /* top: -180px; */
+    padding: 2rem 0rem;
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto p {
+    text-align: justify;
+    font-size: 1.3rem;
+    color: #2b2d42;
+}
+
+.texto h2 {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4361ee;
+}
+
+
+.second-content h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.second-content .imagem {
+    width: 100%;
+}
+
+.conteudo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sublinhar {
+    text-decoration:underline;
+}
+
+#text-yellow {
+    background-color: #FFFFFF;
+    color: #4361ee;
+    display: inline-block;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+.span-green {
+    color: #70e000
+}
+
+.options {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.options p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.third-content {
+    background-color: #FFFFFF;
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+}
+
+.third-content h2 {
+    color: #4361ee;
+    text-align: center;
+    margin: 1rem 0rem;
+
+}
+
+.third-content .about p {
+    color: #4361ee;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.model {
+    margin-top: 1rem;
+}
+
+.model img {
+    border-radius: 1rem;
+}
+
+.results {
+    width: 90%;
+    margin: auto;
+}
+
+.about-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-price .botao-green {
+    position: relative;
+    top: 1.2rem;
+}
+
+.price {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4361ee;
+}
+
+.grif {
+    background-color: #4361ee;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.promotion {
+    color: #bb3e03;
+}
+
+.real-price {
+    color: #70e000;
+}
+
+.fourth-content h2{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.modal {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-char {
+    font-weight: 700;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    margin: 1rem 0rem; 
+    border-radius: 1rem;
+}
+
+.title-modal {
+    color: #ff9e00;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.resposta-modal {
+    text-align: center;
+    margin-top: 1rem;
+    color: #4361ee;
+}
+
+.diminuir {
+    font-size: 1rem;
+}
+
+.modal-large {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+/* ultima parte  */
+
+.info {
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.info-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.info img {
+    width: 3rem;
+}
+
+.info-about span {
+    font-weight: 500;
+    color: #FFFFFF;
+} 
+
+@media (min-width: 500px) {
+    .third-content {
+        width: 80%;
+        margin:auto;
+    }
+    .img {
+        width: 80%;
+        height: 29rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+    } 
+    .imagem {
+        width: 100%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusDedo.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 80%;
+        margin:auto;
+    }
+    .third-content {
+        width: 50%;
+        margin:auto;
+    }
+    .img {
+        width: 100%;
+        height: 40rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+    } 
+    .imagem {
+        width: 100%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusDedo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .alunos {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .fourth-content .container {
+        width: 80%;
+        margin:auto;
+    }
+
+    .modal{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .modal-char {
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        padding: 1rem;
+        margin: 0rem 1rem;
+    }
+    .modal-large {
+        width: 50%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+ 
+}
+
+
+@media (min-width: 1000px) {
+    .container {
+        width: 50%;
+        margin:auto;
+    }
+    .img {
+        width: 100%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: auto;
+    } 
+    
+    .imagem {
+        width: 100%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusDedo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .fourth-content .container {
+        width: 60%;
+        margin:auto;
+    }
+    .telas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fifth-content .content {
+        display: flex;
+    }
+    .fifth-content .container {
+        width: 80%;
+    }
+    .image-teteu img{
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .img {
+        width: 80%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: auto;
+    } 
+    .mat-pose {
+        width: 100%;
+        height: 25rem;
+        background-image: url(/assets/image/matheusApresentando.png);
+        background-position: left;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .img {
+        width: 60%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: auto;
+    }  
+    .mat-pose {
+        width: 100%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusApresentando.png);
+        background-position: left;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1800px) {
+    .img {
+        width: 50%;
+        height: 30rem;
+        background-image: url(/assets/image/matheusApontando.png);
+        background-position: bottom;
+        background-size: cover;
+    } 
+    .imagem {
+        width: 100%;
+        height: 50rem;
+        background-image: url(/assets/image/matheusDedo.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
